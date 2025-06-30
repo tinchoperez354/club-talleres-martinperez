@@ -1,0 +1,9 @@
+nav.navbar {
+  background-color: $secondary-color;
+  .nav-link {
+    color: $dark-color;
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}

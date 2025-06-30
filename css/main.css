@@ -1,0 +1,42 @@
+header {
+  background-color: #212529;
+  color: #ffffff;
+}
+header img {
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #212529;
+  color: #ffffff;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+nav.navbar {
+  background-color: #f8f9fa;
+}
+nav.navbar .nav-link {
+  color: #212529;
+}
+nav.navbar .nav-link:hover {
+  color: #0d6efd;
+}
+
+main h2, main h3 {
+  color: #0d6efd;
+}
+main ul {
+  padding-left: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  header, footer {
+    text-align: center;
+  }
+  nav .navbar-nav {
+    text-align: center;
+  }
+}/*# sourceMappingURL=main.css.map */
